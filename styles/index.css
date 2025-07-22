@@ -33,8 +33,33 @@ section#telefone {
 
 #tela {
   position: relative;
-  top: 81px;
+  top: 80px;
   left: 22px;
   width: 269px;
-  height: 471px;
+  height: 472px;
+}
+
+#redes-sociais {
+  margin-left: 15px;
+}
+
+.redes-icons {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  transition: all 0.2s cubic-bezier(0.05, 0.34, 0.61, 0.95);
+}
+
+.redes-icons:first-child {
+  margin-top: 20px;
+}
+
+.redes-icons:hover {
+  width: 75px;
+  filter: drop-shadow(0px 0px 7px #ffffff);
+  transition: all 0.2s cubic-bezier(0.05, 0.34, 0.61, 0.95);
+  border: 2px solid white;
+  transform: translateX(10px);
 }
